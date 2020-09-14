@@ -45,16 +45,31 @@ q:before, q:after {
 }
 table {
 	border-collapse: collapse;
-	border-spacing: 0;
+    border-spacing: 0;
+    
+
+
+
+
+
+
 }
-/* main codes for project*/
+/* -------------------------main codes for project------------------------------------*/
+
+
 body {background-color:white;}
 
 nav {background-color: grey;
     width: 100%;
-    position: relative;
+    position: fixed;
+    top: 0;
 }
-
+.container{
+    padding-right: 40px;
+    padding-left: 40px;
+    margin-right: auto;
+    margin-left:  auto;
+}
 nav ul 
 {
     list-style: none;
@@ -77,10 +92,21 @@ nav ul li p {
 .logo {
     margin-top: 2rem;
 }
-.navbar {
-   
-}
 
 #video-player {
     margin-top: 4rem;
+}
+#main-content{
+    width: 100%;
+}
+#video-section{
+    display: inline-block;
+    width: 75%;
+    
+}
+
+#upcoming-video{
+    margin-top: 4rem;
+    display: inline-block;
+    vertical-align: top;
 }
