@@ -1,22 +1,23 @@
-body {
-    background-color:white;
+body {background-color:white;}
+
+nav {background-color: grey;}
+
+nav ul 
+{
+    list-style: none;
+    display:flex;
+    justify-content: space-between;
 }
-.navbar li {
-    clear: both;
-    display: inline-block;
-    overflow: hidden;
-    white-space: nowrap;
+.search-bar{
+    margin-top: 2rem;
 }
-.navbar h3 {
+.nav-icon{
+    margin-top: 2rem ;
+}
+nav ul li h3 {
+    display:inline;
+}
+
+nav ul li p {
     display: inline;
-}
-
-.search-bar {
-    margin: 0 auto;
-
-}
-.nav-icon {
-    
-    float: right;
-    padding-top: 2rem;
 }
