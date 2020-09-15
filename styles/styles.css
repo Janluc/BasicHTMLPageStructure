@@ -70,7 +70,6 @@ nav ul li p {
 
 #view-count {
     background-color: red;
-    margin-left: 23rem;
 }
 
 
@@ -85,10 +84,19 @@ nav ul li p {
 
 }
 
-#subscribe{
-    margin-top: 2rem;
+#channel-info{
+    margin-left:.5rem ;
+    width: 100%;
 }
 
+#subscribe {
+    margin-top: 2rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+ 
 
 
 
