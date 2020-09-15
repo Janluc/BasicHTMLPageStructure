@@ -56,8 +56,13 @@ nav ul li p {
 }
 #video-section{
     display: inline-block;
-    width: 70%;
+    width: 60%;
     
+}
+
+#view-count {
+    background-color: red;
+    margin-left: 280px;
 }
 
 
