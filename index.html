@@ -1,74 +1,81 @@
 <html>
-    <head>
-        <title>Youtube Clone</title>
-        <link rel="stylesheet" href="styles/styles.css">
-        <script src="https://kit.fontawesome.com/4a45c2a2dc.js" crossorigin="anonymous"></script>
-        <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
-    </head>
-    <body>
 
-        <!-- ============= Nav bar =================== -->
-        <nav class="navbar">
+<head>
+    <title>Youtube Clone</title>
+    <link rel="stylesheet" href="styles/styles.css">
+    <script src="https://kit.fontawesome.com/4a45c2a2dc.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- ============= Nav bar =================== -->
+    <nav class="navbar">
         <div class="container">
-         <ul>
-            <li class="logo">
-                
-
+            <ul>
+                <li class="nav-logo">
                     <i class="fas fa-bars"></i>
-                    <i class="fab fa-youtube " id="logo"></i>
-                    <h3> Youtube</h3>
-            </li>
-
-            <li class="search-bar">
-                    <input type="text" placeholder="Search" >
+                    <a href=""><i class="fab fa-youtube " id="logo"></i></a>
+                    <a href="">
+                        <h3> Youtube</h3>
+                    </a>
+                </li>
+                <li class="search-bar">
+                    <input type="text" placeholder="Search">
                     <button class="search-btn"><i class="fas fa-search "></i></button>
-            </li> 
-            <li class="nav-icon">  
-                <span>
-                    <p><i class="fas fa-video"></i></p>
-                    <p><i class="fas fa-th"></i></p>
-                    <p><i class="fas fa-bell"></i></p>
-                    <button>Sign in</button>
-                </span>
-            </li>
-                
-            
-         </ul>
+                </li>
+                <li class="nav-signup">
+                    <span>
+                        <a href="">
+                            <p><i class="fas fa-video"></i></p>
+                        </a>
+                        <a href="">
+                            <p><i class="fas fa-th"></i></p>
+                        </a>
+                        <a href="">
+                            <p><i class="fas fa-bell"></i></p>
+                        </a>
+                        <button>Sign in</button>
+                    </span>
+                </li>
+
+
+            </ul>
         </div>
-        </nav>
+    </nav>
 
 
-        <!-- ============ Video Section =========-->
+    <!-- ============ Video Section =========-->
     <div id="main-content">
         <div class="container" id="video-section">
             <div id="vid-iframe">
-                <iframe width="800" height="500" src="https://www.youtube.com/embed/IUMTaAQ43lY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+                <iframe width="800" height="500" src="https://www.youtube.com/embed/IUMTaAQ43lY" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen>
                 </iframe>
             </div>
             <section class="container" id="video-player">
 
-                
 
+                <!-- ============ Video Description =========== -->
                 <h3 id="title">Microverse HTML Things of that nature</h3>
                 <div id="video-info">
-                    
                     <img src="https://via.placeholder.com/100" alt="">
-                    <span id="channel-info">
-                        
-                            <a href=""><h4>Microverse</h4></a>
 
-                            <div id="subscribe">
-                                <div>
-                                    <button><i class="fab fa-youtube"></i> SUBSCRIBE</button>
-                                    <p>2.7M</p>
-                                </div>
-                                <p id="view-count">11,000 views</p>
-                                
+                    <span id="channel-info">
+                        <a href="">
+                            <h4>Microverse</h4>
+                        </a>
+                        <div id="subscribe">
+                            <div>
+                                <button><i class="fab fa-youtube"></i> SUBSCRIBE</button>
+                                <p>2.7M</p>
                             </div>
-  
+                            <p id="view-count">11,000 views</p>
+                        </div>
                     </span>
-                    
-                  
+
+
                 </div>
                 <div class="like-bar"></div>
 
@@ -78,28 +85,28 @@
                         <li><a href=""><i class="fas fa-plus"></i> Add To</a></li>
                         <li><a href=""><i class="fas fa-share"></i> Share</a></li>
                         <li><a href=""><i class="fas fa-ellipsis-h"></i> More</a></li>
-                        
+
                     </ul>
                     <ul>
                         <li><a href=""><i class="fas fa-thumbs-up"></i> 999</a></li>
                         <li><a href=""><i class="fas fa-thumbs-down"></i> 0</a></li>
                     </ul>
                 </div>
-             
+
 
             </section>
 
             <section id="video-description" class="container">
                 <h3>Published on Feb 27, 2014</h3>
-                <p>How do you contribute to open source? In this video, 
-                    I'll describe the easiest way to make a simple contribution to an open 
-                    source project -- without using the command line, a text editor, 
-                    "forking a repo", or even touching Git outside of Github. 
-                    I'll also describe what kinds of contributions open source software 
-                    projects are typically looking for. As an example, 
-                    I use submitting a student solution to a web development exercise 
-                    from The Odin Project, a free online curriculum for learning web 
-                    development with Ruby on Rails. You can find more information about 
+                <p>How do you contribute to open source? In this video,
+                    I'll describe the easiest way to make a simple contribution to an open
+                    source project -- without using the command line, a text editor,
+                    "forking a repo", or even touching Git outside of Github.
+                    I'll also describe what kinds of contributions open source software
+                    projects are typically looking for. As an example,
+                    I use submitting a student solution to a web development exercise
+                    from The Odin Project, a free online curriculum for learning web
+                    development with Ruby on Rails. You can find more information about
                     that project at http://theodinproject.com.
                 </p>
                 <br>
@@ -108,16 +115,16 @@
 
             <br>
 
+
+
+            <!--======================Comment section =========================  -->
             <div class="loading">
                 <p><i class="fas fa-spinner "></i></p>
-                
-
             </div>
+        </div>
 
-    </div>
 
-
-    <!-- ================ Video Side Bar ================== -->
+        <!-- ================ Video Side Bar ================== -->
         <div id="upcoming-video" class="container">
             <section>
                 <div id="side-bar">
@@ -127,18 +134,18 @@
                         <label for="toggle" class="switch"></label>
                     </span>
                 </div>
-                
+
                 <ul>
                     <li id="up-next" class="upcoming-videos">
-                            <img src="https://via.placeholder.com/250x150" alt="pic">
-                            <span class="video-preview">
-                                <h4>Tom Misch: NPR Music Tiny Desk Concert</h4>
-                                <p>NPR Music</p>
-                                <p>7 views</p>
-                            </span>
+                        <img src="https://via.placeholder.com/250x150" alt="pic">
+                        <span class="video-preview">
+                            <h4>Tom Misch: NPR Music Tiny Desk Concert</h4>
+                            <p>NPR Music</p>
+                            <p>7 views</p>
+                        </span>
                     </li>
 
-                    <li class="upcoming-videos" >
+                    <li class="upcoming-videos">
                         <img src="https://via.placeholder.com/250x150" alt="pic">
                         <span class="video-preview">
                             <h4>Tom Misch: NPR Music </h4>
@@ -237,49 +244,64 @@
                         </span>
                     </li>
                 </ul>
-                
+
+                <button id="more-videos">SHOW MORE</button>
             </section>
         </div>
-    </div>
-    <footer class="container">
-        <div class="footer-logo ">
-            
-                
-                    
-    
-                        
-                        <i class="fab fa-youtube " id="logo"></i>
-                        <h3> Youtube</h3>
-               
-            
-            <button> <i class="fas fa-user-alt"></i>Language: English</button>
-            <button>Location:Netherland </button>
-            <button>Restricted Mode: Off</button>
-        <button> <i class="fas fa-hourglass-end"></i>History</button>
-        <button><i class="fas fa-question-circle"></i>Help</button>
-        
-        
 
-        </div>
-        <div class="about-us">
-            <p class="footer-text">About</p>
-            <p class="footer-text">Press</p>
-            <p class="footer-text">Copyright</p>
-            <p class="footer-text">Creators</p>
-            <p class="footer-text">Advertise</p>
-            <p class="footer-text">Developers</p>
-        </div>
-        <div class="terms">
-            <p class="footer-text">Terms</p>
-            <p class="footer-text">Privacy</p>
-            <p class="footer-text">Policy & Safety</p>
-            <p class="footer-text">Test new features</p>
-        </div>
-        
-        
-       
-        
-                    
-    </footer>
-    </body>
+
+        <!--=================== Footer =================-->
+        <footer class="container">
+            <div class="footer-logo ">
+                <a href=""><i class="fab fa-youtube " id="logo"></i></a>
+                <a href="">
+                    <h3> Youtube</h3>
+                </a>
+
+                <button> <i class="fas fa-user-alt"></i>Language:<strong>English</strong></button>
+                <button>Location:<strong>Netherland</strong></button>
+                <button>Restricted Mode:<strong>Off</strong></button>
+                <button> <i class="fas fa-hourglass-end"></i>History</button>
+                <button><i class="fas fa-question-circle"></i>Help</button>
+
+            </div>
+            <div class="about-us">
+                <a href="">
+                    <p class="footer-text">About</p>
+                </a>
+                <a href="">
+                    <p class="footer-text">Press</p>
+                </a>
+                <a href="">
+                    <p class="footer-text">Copyright</p>
+                </a>
+                <a href="">
+                    <p class="footer-text">Creators</p>
+                </a>
+                <a href="">
+                    <p class="footer-text">Advertise</p>
+                </a>
+                <a href="">
+                    <p class="footer-text">Developers</p>
+                </a>
+            </div>
+            <div class="terms">
+                <a href="">
+                    <p class="footer-text">Terms</p>
+                </a>
+                <a href="">
+                    <p class="footer-text">Privacy</p>
+                </a>
+                <a href="">
+                    <p class="footer-text">Policy & Safety</p>
+                </a>
+                <a href="">
+                    <p class="footer-text">Test new features</p>
+                </a>
+            </div>
+        </footer>
+    </div>
+
+</body>
+
 </html>
