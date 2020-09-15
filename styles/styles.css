@@ -14,11 +14,18 @@ body {
     font-family: 'Oswald', sans-serif;
 }
 
-nav {background-color: grey;
+nav {background-color:white;
     width: 100%;
     position: fixed;
     top: 0;
 }
+
+#logo {
+    color: red;
+    font-size: 24px;
+    padding-left: 1rem;
+}
+
 .container{
     padding-right: 40px;
     padding-left: 40px;
@@ -33,6 +40,22 @@ nav ul
 }
 .search-bar{
     margin-top: 2rem;
+    display: flex;
+
+    }
+
+.search-bar input {
+   flex-grow: 2;
+   border: 1px solid grey;
+   border-right: 0;
+}
+
+.search-btn{
+    margin-left: 0;
+    border: 1px solid grey;
+    border-left: 0;
+
+    
 }
 .nav-icon{
     margin-top: 2rem ;
