@@ -309,3 +309,27 @@ nav ul li p {
     display : none;
   }
 
+  .footer-logo {
+      padding: 1rem 0;
+      border-bottom: 1px solid gray;
+      display: flex;
+      
+  }
+
+  .footer-logo button {
+      margin: 0 1rem;
+  }
+
+  .about-us {
+      display: flex;
+     
+  }
+
+.terms {
+    display: flex;
+}
+
+
+.footer-text {
+    margin: 0 1rem;
+}
