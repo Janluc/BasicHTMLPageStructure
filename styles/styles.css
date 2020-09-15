@@ -1,63 +1,17 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
-   v2.0 | 20110126
-   License: none (public domain)
-   CSS reset
-*/
 
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
+p{
+margin: 0;
+padding:0;    
 }
-/* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-	display: block;
+h4{
+    margin: 0;
+    padding: 0;
 }
+
 body {
-	line-height: 1;
+    margin: 0;
+    background-color:white;
 }
-ol, ul {
-	list-style: none;
-}
-blockquote, q {
-	quotes: none;
-}
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
-}
-table {
-	border-collapse: collapse;
-    border-spacing: 0;
-    
-
-
-
-
-
-
-}
-/* -------------------------main codes for project------------------------------------*/
-
-
-body {background-color:white;}
 
 nav {background-color: grey;
     width: 100%;
@@ -94,21 +48,59 @@ nav ul li p {
 }
 
 #video-player {
-    margin-top: 4rem;
+    margin-top: 6rem;
+    border: 3px solid red;
 }
 #main-content{
     width: 100%;
 }
 #video-section{
     display: inline-block;
-    width: 75%;
+    width: 70%;
     
 }
 
+
+
+
+
+#video-info{
+    display: flex;
+}
+#video-info p{
+    display: inline;
+
+}
+
+#subscribe{
+    margin-top: 2rem;
+}
+
+
+
+
+
+
 #upcoming-video{
-    margin-top: 4rem;
+    margin-top: 5rem;
     display: inline-block;
     vertical-align: top;
+}
+
+#upcoming-video ul li{
+    display: flex;
+    margin: 1rem 0;
+}
+
+
+.video-preview{
+    display: block;
+    margin-left: .5rem;
+}
+
+
+#side-bar{
+    padding-left: 2rem;
 }
 #side-bar h4 {
     display: inline-block;
