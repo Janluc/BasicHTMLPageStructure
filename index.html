@@ -40,10 +40,14 @@
         <!-- ============ Video Section =========-->
     <div id="main-content">
         <div class="container" id="video-section">
-            <section id="video-player">
-
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/IUMTaAQ43lY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+            <div id="vid-iframe">
+                <iframe width="800" height="500" src="https://www.youtube.com/embed/IUMTaAQ43lY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
                 </iframe>
+            </div>
+            <section class="container" id="video-player">
+
+                
+
                 <h3>Title</h3>
                 <div id="video-info">
                     
@@ -58,29 +62,35 @@
                             </div>
   
                     </span>
-                    
-                    
-
+                  
                 </div>
 
                 <br>
-
-                <section id="video-description">
-                    
+                <div id="media-buttons">
                     <ul>
-                        <li>like</li>
-                        <li>dislike</li>
-                        <li>share</li>
-                        <li>save</li>
+                        <li><i class="fas fa-plus"></i>Add To</li>
+                        <li><i class="fas fa-share"></i>Share</li>
+                        <li><i class="fas fa-ellipsis-h"></i>More</li>
+                        
                     </ul>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                        Officia dolores aspernatur error. 
-                        Optio exercitationem sit temporibus cupiditate dolores reprehenderit 
-                        consequuntur autem minus! 
-                        Omnis eius voluptatum ullam voluptatem, perferendis esse aliquid?
-                    </p>
-                </section>
+                    <ul>
+                        <li><i class="fas fa-thumbs-up"></i>Like</li>
+                        <li><i class="fas fa-thumbs-down"></i>Dislike</li>
+                    </ul>
+                </div>
+             
 
+            </section>
+
+            <section id="video-description">
+                    
+     
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Officia dolores aspernatur error. 
+                    Optio exercitationem sit temporibus cupiditate dolores reprehenderit 
+                    consequuntur autem minus! 
+                    Omnis eius voluptatum ullam voluptatem, perferendis esse aliquid?
+                </p>
             </section>
 
             <br>
@@ -164,7 +174,7 @@
 
 
     <!-- ================ Video Side Bar ================== -->
-        <div id="upcoming-video">
+        <div id="upcoming-video" class="container">
             <section>
                 <div id="side-bar">
                     <h4>Up next</h4>
