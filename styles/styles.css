@@ -96,6 +96,7 @@ nav ul li p {
     margin-top: 2rem;
     display: flex;
     justify-content: space-between;
+    padding-bottom: 1rem;
 }
 
 
