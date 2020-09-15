@@ -14,17 +14,15 @@ body {
     font-family: 'Oswald', sans-serif;
 }
 
-nav {background-color:white;
+nav {
+    background-color:white;
     width: 100%;
     position: fixed;
     top: 0;
+    padding-bottom: 1rem;
 }
 
-#logo {
-    color: red;
-    font-size: 24px;
-    padding-left: 1rem;
-}
+
 
 .container{
     padding-right: 40px;
@@ -37,28 +35,47 @@ nav ul
     list-style: none;
     display:flex;
     justify-content: space-between;
+    align-items: baseline;
 }
 .search-bar{
     margin-top: 2rem;
     display: flex;
+    width: 60%;
+    height: 32px;
 
-    }
+}
 
 .search-bar input {
    flex-grow: 2;
    border: 1px solid grey;
    border-right: 0;
+   font-size: 18px;
 }
 
 .search-btn{
     margin-left: 0;
     border: 1px solid grey;
     border-left: 0;
+    width: 10%;
 
     
 }
 .nav-icon{
-    margin-top: 2rem ;
+    margin-top: 2rem;
+
+}
+.nav-icon span p {
+    margin: 0 .5rem;
+    font-size: 26px;
+    color: grey;
+}
+.nav-icon span button{
+    font-size: 18px;
+    padding: 10px;
+    border-radius: 10%;
+    border: 0;
+    background-color: rgb(7, 108, 170);
+    color: white;
 }
 nav ul li h3 {
     display:inline;
@@ -68,8 +85,22 @@ nav ul li p {
     display: inline;
 }
 .logo {
-    margin-top: 2rem;
+    margin-top: .5rem;
 }
+.logo h3 {
+    font-size: 40px;
+}
+#logo {
+    color: red;
+    font-size: 40px;
+    padding-left: 1rem;
+}
+
+.fa-bars{
+    font-size: 30px;
+}
+
+
 
 #video-section{
     display: inline-block;
@@ -78,7 +109,7 @@ nav ul li p {
     max-width: 55%;
 }
 #vid-iframe{
-    margin-top: 6rem;
+    margin-top: 7rem;
     width: 100%;
 }
 #vid-iframe iframe
@@ -125,7 +156,7 @@ nav ul li p {
     margin-top: 2rem;
     display: flex;
     justify-content: space-between;
-    padding-bottom: 1rem;
+    
 }
 
 #subscribe button
@@ -154,6 +185,14 @@ nav ul li p {
     font-weight: 300;
 }
 
+.like-bar{
+    width: 30%;
+    border: 1.5px solid rgb(7, 108, 170);
+    background-color:rgb(7, 108, 170) ;
+    margin-top: 1.3rem;
+    float: right;
+}
+
 #media-buttons{
     display: flex;
     justify-content: space-between;
@@ -167,7 +206,7 @@ nav ul li p {
 }
 #media-buttons ul li {
     display: inline;
-    margin: 0 .2rem;
+    margin: 0 .7rem;
 }
 
 #media-buttons ul li a
@@ -194,7 +233,7 @@ nav ul li p {
 
 
 #upcoming-video{
-    margin-top: 5rem;
+    margin-top: 7rem;
     display: inline-block;
     vertical-align: top;
     background-color: white;
@@ -251,7 +290,7 @@ nav ul li p {
     display: inline-block;
     width: 40px;
     height: 20px;
-    background-color: lightskyblue;
+    background-color: rgb(7, 108, 170);
     border-radius: 20px;
   }
   .switch::after {
