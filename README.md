@@ -1,6 +1,6 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
+# Basic HTML Page Structure
 
 > A clone of the Youtube Video Player made completely in HTML and CSS. Extensive use of Flexbox with CSS as it makes things easier with page alignment.
 
