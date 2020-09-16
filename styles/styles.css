@@ -64,8 +64,6 @@ nav ul {
     border: 1px solid grey;
     border-left: 0;
     width: 10%;
-
-
 }
 
 .nav-signup {
@@ -231,19 +229,12 @@ nav ul li p,
     font-weight: 600;
 }
 
-
-
-
-
-
-
 #upcoming-video {
     margin-top: 7rem;
     display: inline-block;
     vertical-align: top;
     background-color: white;
     width: 30%;
-
 }
 
 #upcoming-video ul li {
@@ -260,7 +251,6 @@ nav ul li p,
     margin-left: .5rem;
 }
 
-
 #side-bar {
     padding-top: 1rem;
     display: flex;
@@ -269,7 +259,6 @@ nav ul li p,
 
 #side-bar h4 {
     display: inline-block;
-
 }
 
 .loading {
